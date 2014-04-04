@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF9C47DA18EE6D6000E549EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C47D918EE6D6000E549EB /* Foundation.framework */; };
+		FF9C47DC18EE6D6000E549EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C47DB18EE6D6000E549EB /* CoreGraphics.framework */; };
+		FF9C47DE18EE6D6000E549EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C47DD18EE6D6000E549EB /* UIKit.framework */; };
+		FF9C47E418EE6D6000E549EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9C47E218EE6D6000E549EB /* InfoPlist.strings */; };
+		FF9C47E618EE6D6000E549EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C47E518EE6D6000E549EB /* main.m */; };
+		FF9C47EA18EE6D6000E549EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C47E918EE6D6000E549EB /* AppDelegate.m */; };
+		FF9C47ED18EE6D6000E549EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9C47EB18EE6D6000E549EB /* Main.storyboard */; };
+		FF9C47F018EE6D6000E549EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C47EF18EE6D6000E549EB /* ViewController.m */; };
+		FF9C47F218EE6D6000E549EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9C47F118EE6D6000E549EB /* Images.xcassets */; };
+		FF9C47F918EE6D6100E549EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C47F818EE6D6100E549EB /* XCTest.framework */; };
+		FF9C47FA18EE6D6100E549EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C47D918EE6D6000E549EB /* Foundation.framework */; };
+		FF9C47FB18EE6D6100E549EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C47DD18EE6D6000E549EB /* UIKit.framework */; };
+		FF9C480318EE6D6100E549EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9C480118EE6D6100E549EB /* InfoPlist.strings */; };
+		FF9C480518EE6D6100E549EB /* CBHazeTransitionViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C480418EE6D6100E549EB /* CBHazeTransitionViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF9C47FC18EE6D6100E549EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9C47CE18EE6D6000E549EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9C47D518EE6D6000E549EB;
+			remoteInfo = CBHazeTransitionViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF9C47D618EE6D6000E549EB /* CBHazeTransitionViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBHazeTransitionViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9C47D918EE6D6000E549EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF9C47DB18EE6D6000E549EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF9C47DD18EE6D6000E549EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF9C47E118EE6D6000E549EB /* CBHazeTransitionViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CBHazeTransitionViewController-Info.plist"; sourceTree = "<group>"; };
+		FF9C47E318EE6D6000E549EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF9C47E518EE6D6000E549EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF9C47E718EE6D6000E549EB /* CBHazeTransitionViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBHazeTransitionViewController-Prefix.pch"; sourceTree = "<group>"; };
+		FF9C47E818EE6D6000E549EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF9C47E918EE6D6000E549EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF9C47EC18EE6D6000E549EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF9C47EE18EE6D6000E549EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF9C47EF18EE6D6000E549EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF9C47F118EE6D6000E549EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF9C47F718EE6D6100E549EB /* CBHazeTransitionViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBHazeTransitionViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9C47F818EE6D6100E549EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF9C480018EE6D6100E549EB /* CBHazeTransitionViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CBHazeTransitionViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		FF9C480218EE6D6100E549EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF9C480418EE6D6100E549EB /* CBHazeTransitionViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBHazeTransitionViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9C47D318EE6D6000E549EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9C47DC18EE6D6000E549EB /* CoreGraphics.framework in Frameworks */,
+				FF9C47DE18EE6D6000E549EB /* UIKit.framework in Frameworks */,
+				FF9C47DA18EE6D6000E549EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9C47F418EE6D6100E549EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9C47F918EE6D6100E549EB /* XCTest.framework in Frameworks */,
+				FF9C47FB18EE6D6100E549EB /* UIKit.framework in Frameworks */,
+				FF9C47FA18EE6D6100E549EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9C47CD18EE6D6000E549EB = {
+			isa = PBXGroup;
+			children = (
+				FF9C47DF18EE6D6000E549EB /* CBHazeTransitionViewController */,
+				FF9C47FE18EE6D6100E549EB /* CBHazeTransitionViewControllerTests */,
+				FF9C47D818EE6D6000E549EB /* Frameworks */,
+				FF9C47D718EE6D6000E549EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9C47D718EE6D6000E549EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9C47D618EE6D6000E549EB /* CBHazeTransitionViewController.app */,
+				FF9C47F718EE6D6100E549EB /* CBHazeTransitionViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9C47D818EE6D6000E549EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9C47D918EE6D6000E549EB /* Foundation.framework */,
+				FF9C47DB18EE6D6000E549EB /* CoreGraphics.framework */,
+				FF9C47DD18EE6D6000E549EB /* UIKit.framework */,
+				FF9C47F818EE6D6100E549EB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9C47DF18EE6D6000E549EB /* CBHazeTransitionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF9C47E818EE6D6000E549EB /* AppDelegate.h */,
+				FF9C47E918EE6D6000E549EB /* AppDelegate.m */,
+				FF9C47EB18EE6D6000E549EB /* Main.storyboard */,
+				FF9C47EE18EE6D6000E549EB /* ViewController.h */,
+				FF9C47EF18EE6D6000E549EB /* ViewController.m */,
+				FF9C47F118EE6D6000E549EB /* Images.xcassets */,
+				FF9C47E018EE6D6000E549EB /* Supporting Files */,
+			);
+			path = CBHazeTransitionViewController;
+			sourceTree = "<group>";
+		};
+		FF9C47E018EE6D6000E549EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9C47E118EE6D6000E549EB /* CBHazeTransitionViewController-Info.plist */,
+				FF9C47E218EE6D6000E549EB /* InfoPlist.strings */,
+				FF9C47E518EE6D6000E549EB /* main.m */,
+				FF9C47E718EE6D6000E549EB /* CBHazeTransitionViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9C47FE18EE6D6100E549EB /* CBHazeTransitionViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9C480418EE6D6100E549EB /* CBHazeTransitionViewControllerTests.m */,
+				FF9C47FF18EE6D6100E549EB /* Supporting Files */,
+			);
+			path = CBHazeTransitionViewControllerTests;
+			sourceTree = "<group>";
+		};
+		FF9C47FF18EE6D6100E549EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9C480018EE6D6100E549EB /* CBHazeTransitionViewControllerTests-Info.plist */,
+				FF9C480118EE6D6100E549EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9C47D518EE6D6000E549EB /* CBHazeTransitionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9C480818EE6D6100E549EB /* Build configuration list for PBXNativeTarget "CBHazeTransitionViewController" */;
+			buildPhases = (
+				FF9C47D218EE6D6000E549EB /* Sources */,
+				FF9C47D318EE6D6000E549EB /* Frameworks */,
+				FF9C47D418EE6D6000E549EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBHazeTransitionViewController;
+			productName = CBHazeTransitionViewController;
+			productReference = FF9C47D618EE6D6000E549EB /* CBHazeTransitionViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9C47F618EE6D6100E549EB /* CBHazeTransitionViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9C480B18EE6D6100E549EB /* Build configuration list for PBXNativeTarget "CBHazeTransitionViewControllerTests" */;
+			buildPhases = (
+				FF9C47F318EE6D6100E549EB /* Sources */,
+				FF9C47F418EE6D6100E549EB /* Frameworks */,
+				FF9C47F518EE6D6100E549EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9C47FD18EE6D6100E549EB /* PBXTargetDependency */,
+			);
+			name = CBHazeTransitionViewControllerTests;
+			productName = CBHazeTransitionViewControllerTests;
+			productReference = FF9C47F718EE6D6100E549EB /* CBHazeTransitionViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9C47CE18EE6D6000E549EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "suyu zhang";
+				TargetAttributes = {
+					FF9C47F618EE6D6100E549EB = {
+						TestTargetID = FF9C47D518EE6D6000E549EB;
+					};
+				};
+			};
+			buildConfigurationList = FF9C47D118EE6D6000E549EB /* Build configuration list for PBXProject "CBHazeTransitionViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF9C47CD18EE6D6000E549EB;
+			productRefGroup = FF9C47D718EE6D6000E549EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9C47D518EE6D6000E549EB /* CBHazeTransitionViewController */,
+				FF9C47F618EE6D6100E549EB /* CBHazeTransitionViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9C47D418EE6D6000E549EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9C47F218EE6D6000E549EB /* Images.xcassets in Resources */,
+				FF9C47E418EE6D6000E549EB /* InfoPlist.strings in Resources */,
+				FF9C47ED18EE6D6000E549EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9C47F518EE6D6100E549EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9C480318EE6D6100E549EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9C47D218EE6D6000E549EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9C47F018EE6D6000E549EB /* ViewController.m in Sources */,
+				FF9C47EA18EE6D6000E549EB /* AppDelegate.m in Sources */,
+				FF9C47E618EE6D6000E549EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9C47F318EE6D6100E549EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9C480518EE6D6100E549EB /* CBHazeTransitionViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF9C47FD18EE6D6100E549EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9C47D518EE6D6000E549EB /* CBHazeTransitionViewController */;
+			targetProxy = FF9C47FC18EE6D6100E549EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF9C47E218EE6D6000E549EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9C47E318EE6D6000E549EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF9C47EB18EE6D6000E549EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9C47EC18EE6D6000E549EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9C480118EE6D6100E549EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9C480218EE6D6100E549EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9C480618EE6D6100E549EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF9C480718EE6D6100E549EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9C480918EE6D6100E549EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBHazeTransitionViewController/CBHazeTransitionViewController-Prefix.pch";
+				INFOPLIST_FILE = "CBHazeTransitionViewController/CBHazeTransitionViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF9C480A18EE6D6100E549EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBHazeTransitionViewController/CBHazeTransitionViewController-Prefix.pch";
+				INFOPLIST_FILE = "CBHazeTransitionViewController/CBHazeTransitionViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF9C480C18EE6D6100E549EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CBHazeTransitionViewController.app/CBHazeTransitionViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBHazeTransitionViewController/CBHazeTransitionViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CBHazeTransitionViewControllerTests/CBHazeTransitionViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FF9C480D18EE6D6100E549EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CBHazeTransitionViewController.app/CBHazeTransitionViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBHazeTransitionViewController/CBHazeTransitionViewController-Prefix.pch";
+				INFOPLIST_FILE = "CBHazeTransitionViewControllerTests/CBHazeTransitionViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9C47D118EE6D6000E549EB /* Build configuration list for PBXProject "CBHazeTransitionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9C480618EE6D6100E549EB /* Debug */,
+				FF9C480718EE6D6100E549EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9C480818EE6D6100E549EB /* Build configuration list for PBXNativeTarget "CBHazeTransitionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9C480918EE6D6100E549EB /* Debug */,
+				FF9C480A18EE6D6100E549EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF9C480B18EE6D6100E549EB /* Build configuration list for PBXNativeTarget "CBHazeTransitionViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9C480C18EE6D6100E549EB /* Debug */,
+				FF9C480D18EE6D6100E549EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9C47CE18EE6D6000E549EB /* Project object */;
+}
