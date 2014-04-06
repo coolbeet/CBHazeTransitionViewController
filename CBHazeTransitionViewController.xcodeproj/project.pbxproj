@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF63FC9A18F103F90092DC8C /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF63FC9918F103F90092DC8C /* RefreshView.m */; };
+		FF63FC9F18F1EA930092DC8C /* complete.m4r in Resources */ = {isa = PBXBuildFile; fileRef = FF63FC9E18F1EA930092DC8C /* complete.m4r */; };
+		FF63FCA118F1EC010092DC8C /* bamboo.m4r in Resources */ = {isa = PBXBuildFile; fileRef = FF63FCA018F1EC010092DC8C /* bamboo.m4r */; };
 		FF9C47DA18EE6D6000E549EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C47D918EE6D6000E549EB /* Foundation.framework */; };
 		FF9C47DC18EE6D6000E549EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C47DB18EE6D6000E549EB /* CoreGraphics.framework */; };
 		FF9C47DE18EE6D6000E549EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C47DD18EE6D6000E549EB /* UIKit.framework */; };
 		FF9C47E418EE6D6000E549EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9C47E218EE6D6000E549EB /* InfoPlist.strings */; };
 		FF9C47E618EE6D6000E549EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C47E518EE6D6000E549EB /* main.m */; };
 		FF9C47EA18EE6D6000E549EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C47E918EE6D6000E549EB /* AppDelegate.m */; };
-		FF9C47ED18EE6D6000E549EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9C47EB18EE6D6000E549EB /* Main.storyboard */; };
 		FF9C47F018EE6D6000E549EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C47EF18EE6D6000E549EB /* ViewController.m */; };
 		FF9C47F218EE6D6000E549EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9C47F118EE6D6000E549EB /* Images.xcassets */; };
 		FF9C47F918EE6D6100E549EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C47F818EE6D6100E549EB /* XCTest.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF63FC9818F103F90092DC8C /* RefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshView.h; sourceTree = "<group>"; };
+		FF63FC9918F103F90092DC8C /* RefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshView.m; sourceTree = "<group>"; };
+		FF63FC9E18F1EA930092DC8C /* complete.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = complete.m4r; sourceTree = "<group>"; };
+		FF63FCA018F1EC010092DC8C /* bamboo.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = bamboo.m4r; sourceTree = "<group>"; };
 		FF9C47D618EE6D6000E549EB /* CBHazeTransitionViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBHazeTransitionViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9C47D918EE6D6000E549EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FF9C47DB18EE6D6000E549EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +50,6 @@
 		FF9C47E718EE6D6000E549EB /* CBHazeTransitionViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBHazeTransitionViewController-Prefix.pch"; sourceTree = "<group>"; };
 		FF9C47E818EE6D6000E549EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF9C47E918EE6D6000E549EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF9C47EC18EE6D6000E549EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF9C47EE18EE6D6000E549EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FF9C47EF18EE6D6000E549EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FF9C47F118EE6D6000E549EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,9 +119,10 @@
 			children = (
 				FF9C47E818EE6D6000E549EB /* AppDelegate.h */,
 				FF9C47E918EE6D6000E549EB /* AppDelegate.m */,
-				FF9C47EB18EE6D6000E549EB /* Main.storyboard */,
 				FF9C47EE18EE6D6000E549EB /* ViewController.h */,
 				FF9C47EF18EE6D6000E549EB /* ViewController.m */,
+				FF63FC9818F103F90092DC8C /* RefreshView.h */,
+				FF63FC9918F103F90092DC8C /* RefreshView.m */,
 				FF9C47F118EE6D6000E549EB /* Images.xcassets */,
 				FF9C47E018EE6D6000E549EB /* Supporting Files */,
 			);
@@ -126,6 +132,8 @@
 		FF9C47E018EE6D6000E549EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF63FC9E18F1EA930092DC8C /* complete.m4r */,
+				FF63FCA018F1EC010092DC8C /* bamboo.m4r */,
 				FF9C47E118EE6D6000E549EB /* CBHazeTransitionViewController-Info.plist */,
 				FF9C47E218EE6D6000E549EB /* InfoPlist.strings */,
 				FF9C47E518EE6D6000E549EB /* main.m */,
@@ -229,8 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9C47F218EE6D6000E549EB /* Images.xcassets in Resources */,
+				FF63FC9F18F1EA930092DC8C /* complete.m4r in Resources */,
 				FF9C47E418EE6D6000E549EB /* InfoPlist.strings in Resources */,
-				FF9C47ED18EE6D6000E549EB /* Main.storyboard in Resources */,
+				FF63FCA118F1EC010092DC8C /* bamboo.m4r in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 			files = (
 				FF9C47F018EE6D6000E549EB /* ViewController.m in Sources */,
 				FF9C47EA18EE6D6000E549EB /* AppDelegate.m in Sources */,
+				FF63FC9A18F103F90092DC8C /* RefreshView.m in Sources */,
 				FF9C47E618EE6D6000E549EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +290,6 @@
 				FF9C47E318EE6D6000E549EB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FF9C47EB18EE6D6000E549EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF9C47EC18EE6D6000E549EB /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		FF9C480118EE6D6100E549EB /* InfoPlist.strings */ = {
@@ -456,6 +458,7 @@
 				FF9C480A18EE6D6100E549EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF9C480B18EE6D6100E549EB /* Build configuration list for PBXNativeTarget "CBHazeTransitionViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +467,7 @@
 				FF9C480D18EE6D6100E549EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

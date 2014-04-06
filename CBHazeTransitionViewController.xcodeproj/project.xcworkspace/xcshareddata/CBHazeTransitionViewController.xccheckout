@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F66AB2BE-E449-40C4-9CC0-7F741AAC0A7D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CBHazeTransitionViewController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CCEA34DF-8CF5-43E0-8E76-1FD889B93C3D</key>
+		<string>https://github.com/coolbeet/CBHazeTransitionViewController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CBHazeTransitionViewController.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CCEA34DF-8CF5-43E0-8E76-1FD889B93C3D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/coolbeet/CBHazeTransitionViewController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CCEA34DF-8CF5-43E0-8E76-1FD889B93C3D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CCEA34DF-8CF5-43E0-8E76-1FD889B93C3D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CBHazeTransitionViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
