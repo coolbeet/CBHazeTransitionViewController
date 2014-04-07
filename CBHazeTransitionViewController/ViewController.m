@@ -130,7 +130,7 @@
     [self.bgView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[_lowerScrollView(scrollViewWidth)]|" options:0 metrics:bgViewMetrics views:bgViewBindings]];
 
     NSDictionary *upperScrollViewBindings = NSDictionaryOfVariableBindings(upperContentView, _chicagoView, _upperBottomLabel, _upperRefreshView);
-    NSDictionary *upperScrollViewMetrics = @{@"upperContentViewHeight": @(450),
+    NSDictionary *upperScrollViewMetrics = @{@"upperContentViewHeight": @(self.view.bounds.size.height-118),
                                              @"everybodysWidth": @(320),
                                              @"upperBottomLabelHeight": @(kUpperBottomLabelHeight),
                                              @"aVeryHighHeight": @(1000), //just make sure the refresh view is high enough to show the animation
