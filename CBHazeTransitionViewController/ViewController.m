@@ -92,7 +92,8 @@
     
     UIImageView *lowerContentView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"mainBg"]];
     lowerContentView.translatesAutoresizingMaskIntoConstraints = NO;
-    
+    [self.lowerScrollView addSubview:lowerContentView];
+
     self.lowerBottomLabel = [UILabel new];
     self.lowerBottomLabel.translatesAutoresizingMaskIntoConstraints = NO;
     self.lowerBottomLabel.backgroundColor = [UIColor clearColor];
@@ -105,7 +106,7 @@
     [self.lowerScrollView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[_lowerBottomLabel]|" options:0 metrics:0 views:NSDictionaryOfVariableBindings(_lowerBottomLabel)]];
     self.lowerBottomLabelBottomConstraint = [NSLayoutConstraint constraintWithItem:lowerContentView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.lowerBottomLabel attribute:NSLayoutAttributeCenterY multiplier:1.f constant:0];
     [self.lowerScrollView addConstraint:self.lowerBottomLabelBottomConstraint];
-    [self.lowerScrollView addSubview:lowerContentView];
+    [self.lowerScrollView bringSubviewToFront:lowerContentView];
     
     self.lowerRefreshView = [[RefreshView alloc] initWithFrame:CGRectZero inScrollView:self.lowerScrollView withDirection:RefreshViewDirectionUp];
     self.lowerRefreshView.translatesAutoresizingMaskIntoConstraints = NO;
